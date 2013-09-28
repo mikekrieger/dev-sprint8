@@ -21,47 +21,55 @@ answer the following...
 
 1. GET /movies
 Fill this in with what the page will look like in the browser:
-
-
+================================================
+|  id  |            Title           |   Year   |
+================================================
+|  1   |          A New Hope        |   1977   |
+------------------------------------------------
+|  2   |  The Empire Strikes Back   |   1980   |
+------------------------------------------------
+|  3   |     Return of the Jedi     |   1983   |
+------------------------------------------------
 
 2. GET /movies/1
 Fill this in with what the page will look like in the browser:
 
+================================================
+|  id  |            Title           |   Year   |
+================================================
+|  1   |          A New Hope        |   1977   |
+------------------------------------------------
+|  2   |  The Empire Strikes Back   |   1980   |
+------------------------------------------------
+|  3   |     Return of the Jedi     |   1983   |
+------------------------------------------------
 
+1
 
 3. POST /movies with params {:movie => {:title => "The Phantom Menace", :year => 1998}}
 Fill in what the database should look like after a post with parameters
 
-================================================
-|  id  |            Title           |   Year   |
-================================================
-|      |                            |          |
-------------------------------------------------
-|      |                            |          |
-------------------------------------------------
-|      |                            |          |
-------------------------------------------------
-|      |                            |          |
-------------------------------------------------
+|  1   |    The Phantom Menace      |   1998   |
 
 4. PUT /movies/4 {:movie => {:title => "The Phantom Menace", :year => 1999}}
 Fill in what the database should look like after the PUT with the parameters
 
-================================================
-|  id  |            Title           |   Year   |
-================================================
-|      |                            |          |
-------------------------------------------------
-|      |                            |          |
-------------------------------------------------
-|      |                            |          |
-------------------------------------------------
-|      |                            |          |
-------------------------------------------------
+|  1   |    The Phantom Menace      |   1999   |
+4
 
 5. GET /movies
 Fill in what the page should look like in the browser
 
+
+================================================
+|  id  |            Title           |   Year   |
+================================================
+|  1   |          A New Hope        |   1977   |
+------------------------------------------------
+|  2   |  The Empire Strikes Back   |   1980   |
+------------------------------------------------
+|  3   |     Return of the Jedi     |   1983   |
+------------------------------------------------
 
 6. DELETE /movies/4
 Fill in what the database should look like after the above request
@@ -75,3 +83,5 @@ Fill in what the database should look like after the above request
 ------------------------------------------------
 |      |                            |          |
 ------------------------------------------------
+
+4
